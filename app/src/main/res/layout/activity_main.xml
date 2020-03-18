@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="117dp"
-        android:layout_height="49dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -29,15 +29,26 @@
         app:layout_constraintVertical_bias="0.165" />
 
     <Button
-        android:id="@+id/button_counter"
+        android:id="@+id/button_counter_crows"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_counterText"
+        android:text="@string/button_counter_crowsText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.467" />
+
+    <Button
+        android:id="@+id/button_counter_cats"
+        android:layout_width="155dp"
+        android:layout_height="54dp"
+        android:text="@string/button_counter_catsText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.717" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

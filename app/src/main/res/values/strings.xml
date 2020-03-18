@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Click-Counter</string>
     <string name="buttonText">Say Hello</string>
-    <string name="button_counterText">Count the Crows</string>
+    <string name="button_counter_crowsText">Count the Crows</string>
+    <string name="button_counter_catsText">Count the Cats</string>
 </resources>
